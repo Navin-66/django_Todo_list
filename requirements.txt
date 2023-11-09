@@ -4,5 +4,4 @@ pytz==2021.1
 sqlparse==0.4.2
 botbuilder-schema==4.14.0
 botframework-connector==4.14.0
-botbuilder-core==4.15.0
 botbuilder-core==4.14.6
