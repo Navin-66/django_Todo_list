@@ -9,4 +9,5 @@ urlpatterns = [
     path('crossoff/<item_id>', views.cross_off, name='cross_off'),
     path('uncross/<item_id>', views.uncross, name='uncross'),
     path('edit/<item_id>', views.edit, name='edit'),
+    path('api/messages/', views.handle_bot_messages, name='handle_bot_messages'),
 ]
